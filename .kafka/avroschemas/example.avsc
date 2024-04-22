@@ -1,0 +1,28 @@
+{
+  "type": "record",
+  "name": "SomeObject",
+  "namespace": "org.whatever",
+  "fields": [
+    {
+      "name": "child",
+      "type": {
+        "type": "record",
+        "name": "SomeChild",
+        "fields": [
+          {
+            "name": "someProperty",
+            "type": [
+              "null",
+              "string"
+            ],
+            "default": null
+          }
+        ]
+      },
+      "default": {
+        "userId": null,
+        "oe": null
+      }
+    }
+  ]
+}
