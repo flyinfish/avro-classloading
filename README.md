@@ -4,7 +4,7 @@ project reproduces quarkus classloading issue within avro. project was generated
 
 ## reproduce
 ```
-https://github.com/flyinfish/avro-classloading.git
+git clone https://github.com/flyinfish/avro-classloading.git
 cd avro-classloading
 quarkus test
 ```
